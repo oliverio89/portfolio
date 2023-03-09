@@ -18,7 +18,7 @@ const Navigation = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">  
                
     <Navbar.Brand>
-      <a href="/"><img src={logo} /></a>
+      <a href="/"><img src={logo} className='imgLogo' /></a>
     </Navbar.Brand>
 
             <Container className='circle'>

@@ -9,5 +9,14 @@
 }
 
 .presentacion {
-    height: 50rem;
+    height: 700px;
+    display: flex;
+}
+
+.imgMyPhoto{
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  margin-top: 150px;
+  box-shadow: 3px 3px gray, -1em 0 .4em grey;
 }
