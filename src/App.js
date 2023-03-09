@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import logo from './resources/images/OliDeVgrey.png';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navigation from './components/Navigation/Navigation'
+import AppRoutes from './routes/AppRoutes.jsx'
 
 function App() {
   return (
     <div className="App">
+        <Navigation />
+        <AppRoutes />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br></br>
+        <p>Web en progreso</p>
       </header>
     </div>
   );

@@ -1,0 +1,36 @@
+.navbar {
+    background-color: rgba(37, 52, 57, 255) !important;
+    height: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnStart {
+    background-color: transparent;
+   
+
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.circle {
+    color: white;
+    display: flex;
+
+justify-content: flex-end;
+ gap: 5rem;
+padding-right: 5rem;
+}
+
+img{
+    width: 18%;
+    height: 20%;
+
+}
+.secondBar{
+display: flex;
+gap: 10rem;
+}
