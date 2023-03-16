@@ -19,3 +19,8 @@ Educación y certificaciones: Información sobre tu educación, incluyendo cualq
 Testimonios o referencias: Si tienes referencias o testimonios de clientes o empleadores anteriores, inclúyelos en tu portafolio. Esto puede ayudar a demostrar tu habilidad para trabajar en equipo y alcanzar objetivos específicos.
 
 Contacto: Asegúrate de incluir una forma fácil para que los empleadores o clientes se pongan en contacto contigo, como una dirección de correo electrónico o un formulario de contacto.
+
+Para elegir el color: https://color.adobe.com/es/create/color-wheel
+
+
+material desing:
