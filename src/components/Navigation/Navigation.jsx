@@ -1,18 +1,30 @@
 
-import { Nav, Container, Navbar, Button, Modal, Row } from 'react-bootstrap'
+import { Nav, Container, Navbar } from 'react-bootstrap'
 
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '../../resources/images/OliDeVgrey.png'
+
+import React, { useState } from 'react'
+
+import es from '../../components/Language/es';
+import en from '../../components/Language/en';
+import espana from '../../resources/images/icons8-spain-48.png';
+import inglaterra from '../../resources/images/icons8-united-kingdom-48.png';
 
 
 import './Navigation.css'
 
 const Navigation = () => {
 
+  const [idioma, setIdioma] = useState('es')
+
+  const cambiarIdioma = () => {
+      setIdioma(idioma === 'es' ? 'en' : 'es')
+    }
 
       return (
         
-        <Navbar collapseOnSelect expand="lg" >
+        <Navbar class='Navigation' collapseOnSelect expand="lg" >
         
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">  
@@ -24,24 +36,45 @@ const Navigation = () => {
             <Container className='circle'>
           <div>
                 <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> Conóceme</Nav.Link>
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.AcercaDeMí : en.AcercaDeMí}</Nav.Link>
                 </Link>
                 </div>
                 <div>
                 <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> Acerca de mi</Nav.Link>
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Habilidades : en.Habilidades}</Nav.Link>
                     </Link>
                     </div>
                     <div>
                     <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> Mis proyectos</Nav.Link>
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Proyectos : en.Proyectos}</Nav.Link>
                     </Link>
                     </div>
                     <div>
                     <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> Mi formación</Nav.Link>
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.ExperienciaLaboral : en.ExperienciaLaboral}</Nav.Link>
                     </Link>
                     </div>
+                    <div>
+                    <Link to="/">
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.EducaciónCertificaciones : en.EducaciónCertificaciones}</Nav.Link>
+                    </Link>
+                    </div>
+                    <div>
+                    <Link to="/">
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.TestimoniosReferencias : en.TestimoniosReferencias}</Nav.Link>
+                    </Link>
+                    </div> 
+                    <div>
+                    <Link to="/">
+                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Contacto : en.Contacto}</Nav.Link>
+                    </Link>
+                    </div>
+                    <button onClick={cambiarIdioma}>
+        <img className='iconLenguage'
+          src={idioma === 'es' ? espana : inglaterra}
+          alt={idioma === 'es' ? 'Español' : 'English'}
+        />
+      </button>
             </Container>
                 </Navbar.Collapse>
         </Navbar>

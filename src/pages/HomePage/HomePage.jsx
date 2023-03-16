@@ -13,8 +13,8 @@ const HomePage = () => {
     const [idioma, setIdioma] = useState('es')
 
     const cambiarIdioma = () => {
-        setIdioma(idioma === 'es' ? 'en' : 'es');
-      };
+        setIdioma(idioma === 'es' ? 'en' : 'es')
+      }
 
     return (
         <>
@@ -29,8 +29,8 @@ const HomePage = () => {
                     Estoy emocionado de seguir aprendiendo y creciendo como desarrollador, y espero poder aplicar mis habilidades y conocimientos para ayudar <br></br>
                     a las empresas a alcanzar sus objetivos en línea.</p>
                 </div>
-                <div className='photo'>
-                    <img src={myPhoto} className='imgMyPhoto' />
+                <div class="bg-image hover-zoom">
+                    <img src={myPhoto} className='imgMyPhoto bg-image hover-zoom' />
                 </div>
             </div>
             <button onClick={cambiarIdioma}>

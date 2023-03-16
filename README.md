@@ -23,4 +23,5 @@ Contacto: Asegúrate de incluir una forma fácil para que los empleadores o clie
 Para elegir el color: https://color.adobe.com/es/create/color-wheel
 
 
-material desing:
+material desing:https://m3.material.io/
+material icon: https://fonts.google.com/icons
