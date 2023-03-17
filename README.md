@@ -2,13 +2,13 @@
  - hacerla en una sola pantalla, y que se mueva entre los distintos links.
 
 
+## ideas de chatgpt:
 
-ideas de chatgpt:
 A continuación, te recomiendo algunos apartados que podrías incluir en tu portafolio:
 
-Acerca de mí: Un breve resumen que explique quién eres, tus habilidades principales y tu experiencia laboral previa.
+- Acerca de mí: Un breve resumen que explique quién eres, tus habilidades principales y tu experiencia laboral previa.
 
-Proyectos: Una sección en la que puedas mostrar algunos de tus proyectos más recientes y destacados. Asegúrate de incluir información sobre cada proyecto, como una breve descripción, los objetivos que se lograron y las tecnologías utilizadas.
+- Proyectos: Una sección en la que puedas mostrar algunos de tus proyectos más recientes y destacados. Asegúrate de incluir información sobre cada proyecto, como una breve descripción, los objetivos que se lograron y las tecnologías utilizadas.
 
 Habilidades: Una lista de las habilidades técnicas que tienes, ordenadas por categorías como "lenguajes de programación", "frameworks", "bases de datos", etc. Esto puede ayudar a los empleadores a comprender tus habilidades técnicas y el nivel de experiencia que tienes en diferentes áreas.
 
