@@ -1,5 +1,5 @@
 # Ideas Iniciales para mi porfolio.
- - hacerla en una sola pantalla, y que se mueva entre los distintos links.
+
 
 
 ## ideas de chatgpt:
@@ -26,4 +26,3 @@ Para elegir el color: https://color.adobe.com/es/create/color-wheel
 material desing:https://m3.material.io/
 material icon: https://fonts.google.com/icons
 
-# https://github.com/anuraghazra/github-readme-stats 
