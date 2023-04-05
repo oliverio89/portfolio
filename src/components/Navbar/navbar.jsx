@@ -2,6 +2,7 @@ import './navbar.css'
 
 import { Nav, Container, Navbar } from 'react-bootstrap'
 
+
 import { Link } from 'react-router-dom'
 import logo from '../../resources/images/OliDeVgrey.png'
 
@@ -34,41 +35,22 @@ function Navbarr() {
     </Navbar.Brand>
 
             <Container className='circle'>
-          <div>
-                <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.AcercaDeMí : en.AcercaDeMí}</Nav.Link>
-                </Link>
-                </div>
-                <div>
-                <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Habilidades : en.Habilidades}</Nav.Link>
-                    </Link>
-                    </div>
-                    <div>
-                    <Link to="#Proyects">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Proyectos : en.Proyectos}</Nav.Link>
-                    </Link>
-                    </div>
-                    {/* <div>
-                    <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.ExperienciaLaboral : en.ExperienciaLaboral}</Nav.Link>
-                    </Link>
-                    </div> */}
-                    <div>
-                    <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.EducaciónCertificaciones : en.EducaciónCertificaciones}</Nav.Link>
-                    </Link>
-                    </div>
-                    {/* <div>
-                    <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.TestimoniosReferencias : en.TestimoniosReferencias}</Nav.Link>
-                    </Link>
-                    </div>  */}
-                    <div>
-                    <Link to="/">
-                    <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Contacto : en.Contacto}</Nav.Link>
-                    </Link>
-                    </div>
+        
+          
+            <Navbar bg="transparent" expand="lg" className="navbar-transparent navbar-light">
+      <Navbar.Brand href="#">Logo</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#" className="text-white">Home</Nav.Link>
+          <Nav.Link href="#" className="text-white">Acerca de</Nav.Link>
+          <Nav.Link href="#contact" className="text-white">Contacto</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+                      
+                   
+                   
                     <button onClick={cambiarIdioma}>
         <img className='iconLenguage'
           src={idioma === 'es' ? espana : inglaterra}

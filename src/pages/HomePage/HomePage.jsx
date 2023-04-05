@@ -15,7 +15,7 @@ const HomePage = () => {
         <>
          <div> <Navbar /> </div>
             <div> <About /> </div>
-            <div> <Contact /> </div>
+            <div> <Contact id="contacto"/> </div>
             <div> <Projects /> </div>
             {/* <div> <Skills /> </div> */}
         </>
