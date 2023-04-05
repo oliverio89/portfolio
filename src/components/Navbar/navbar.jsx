@@ -1,3 +1,4 @@
+import './navbar.css'
 
 import { Nav, Container, Navbar } from 'react-bootstrap'
 
@@ -12,9 +13,8 @@ import espana from '../../resources/images/icons8-spain-48.png';
 import inglaterra from '../../resources/images/icons8-united-kingdom-48.png';
 
 
-import './Navigation.css'
 
-const Navigation = () => {
+function Navbarr() {
 
   const [idioma, setIdioma] = useState('es')
 
@@ -45,7 +45,7 @@ const Navigation = () => {
                     </Link>
                     </div>
                     <div>
-                    <Link to="/">
+                    <Link to="#Proyects">
                     <Nav.Link as="div" variant="btnStart" size="sm"> {idioma === 'es' ? es.Proyectos : en.Proyectos}</Nav.Link>
                     </Link>
                     </div>
@@ -82,5 +82,5 @@ const Navigation = () => {
     )
 }
 
-export default Navigation
+export default Navbarr
 
