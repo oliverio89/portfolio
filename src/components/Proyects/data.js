@@ -1,12 +1,12 @@
 
 export const projects = [
     {
-      title: "React Reserve",
+      title: "Dungeonize",
       subtitle: "MERN Stack",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Aplicación diseñada para un juego de rol utilizando todo lo que se, con la aydua de un amguito",
+      image: "https://media.licdn.com/dms/image/C4D22AQFAAQdG0t5B7g/feedshare-shrink_800/0/1669051253377?e=1683763200&v=beta&t=fKoTGWGTQ_SeHgpzT2HeZ5hA7yQ6vAbRM389w5wwYSg",
+      link: "https://dungeonize.fly.dev/",
     },
     {
       title: "React Tracks",
@@ -16,20 +16,5 @@ export const projects = [
       image: "./project-2.gif",
       link: "https://reedbarger.com",
     },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
+   
   ];
