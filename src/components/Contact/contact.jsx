@@ -16,6 +16,7 @@ function Contact() {
       {/* <a href="mailto:oliverio89@gmail.com" target="_blank" rel="noopener noreferrer">
         <FaEnvelope className="contact-icon" />
       </a> */}
+      
   </div>
 
    
