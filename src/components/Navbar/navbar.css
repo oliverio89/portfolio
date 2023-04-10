@@ -1,6 +1,5 @@
 .navbar {
-    background-color: rgba(37, 52, 57, 255) !important;
-    height: 4rem;
+    height: 10rem;
 }
 
 a {
@@ -10,8 +9,6 @@ a {
 
 .btnStart {
     background-color: transparent;
-   
-
     font-size: 10px;
     color: rgba(255, 255, 255, 0.6)
 }
@@ -19,18 +16,25 @@ a {
 .circle {
     color: white;
     display: flex;
-
-justify-content: flex-end;
- gap: 5rem;
-padding-right: 5rem;
+    justify-content: flex-end;
+     gap: 5rem;
+     padding-right: 5rem;
 }
 
 .imgLogo{
     width: 18%;
     height: 20%;
-
 }
+
 .secondBar{
 display: flex;
 gap: 10rem;
+}
+
+.iconLenguage{
+    width: 15px;
+}
+
+.Navigation{
+margin: 10px;
 }
