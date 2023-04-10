@@ -27,6 +27,29 @@ const HomePage = () => {
             {/* cuerpo */}
             <div className='cuerpo'>
 
+
+
+            </div>
+
+            {/* acerca de mi */}
+            <div className='cuerpo'>
+
+
+
+            </div>
+
+            {/* mis proyectos */}
+            <div className='cuerpo'>
+
+
+
+            </div>
+
+            {/* mis conocimientos */}
+            <div className='cuerpo'>
+                <div><h2>Durante mi carrera como programador he desarrollado proyecto con las siguientes técnologías.</h2></div>
+
+
             </div>
 
         </>
