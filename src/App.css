@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 
+
+
 .App {
+  background-color: rgba(37, 52, 57, 255);
+  color: white;
+  font-family: Roboto;
   text-align: center;
-  
+
 }
 
 .App-logo {
@@ -20,7 +25,8 @@
 }
 
 .App-header {
-  background-color: rgba(37, 52, 57, 255);   /*color del fondo general*/
+  background-color: rgba(37, 52, 57, 255);
+  /*color del fondo general*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
