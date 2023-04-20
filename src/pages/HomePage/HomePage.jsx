@@ -13,9 +13,9 @@ const HomePage = () => {
 
     return (
         <>
-         <div> <Navbar /> </div>
+            <div> <Navbar /> </div>
             <div> <About /> </div>
-            <div> <Contact id="contacto"/> </div>
+            <div> <Contact id="contacto" /> </div>
             <div> <Projects /> </div>
             {/* <div> <Skills /> </div> */}
         </>

@@ -31,7 +31,4 @@ material icon: https://fonts.google.com/icons
 # npm instalados: 
 - react icons.
 
-
-
-
 - Añadir paginación lateral con puntos
