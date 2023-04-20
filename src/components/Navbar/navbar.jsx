@@ -2,7 +2,6 @@ import './navbar.css'
 import { Nav,  Navbar } from 'react-bootstrap'
 import logo from '../../resources/images/OliDeVgrey.png'
 import React, { useState, useContext } from 'react'
-import translations from '../Language/translations'
 import espana from '../../resources/images/icons8-spain-48.png'
 import inglaterra from '../../resources/images/icons8-united-kingdom-48.png'
 import { LanguageContext } from '../../contexts/LanguageContext.js';
@@ -12,18 +11,12 @@ import { LanguageContext } from '../../contexts/LanguageContext.js';
 
 function Navbarr() {
 
+  const { language, translations, changeLanguage } = useContext(LanguageContext);
 
   const [lang, setIdioma] = useState('es')
 
-  const cambiarIdioma = () => {
+  const handleLanguageChange = () => {
     setIdioma(lang === 'es' ? 'en' : 'es')
-  }
-
-
-
-  const { language, translations, changeLanguage } = useContext(LanguageContext);
-
-  const handleLanguageChange = (lang) => {
     changeLanguage(lang);
   };
 
@@ -39,7 +32,7 @@ function Navbarr() {
           <Nav.Link href="#contact" className="text-white">{translations[language].Contacto}</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <button onClick={() => handleLanguageChange(lang === 'es' ? 'en' : 'es')} className='botonIdioma'>  {/* Necesito revisar el condicional para que cambie cada vez que pinche.*/}
+      <button onClick={() => handleLanguageChange()} className='botonIdioma'>  
           <img className='iconLenguage'
             src={lang === 'es' ? espana : inglaterra}
             alt={lang === 'es' ? 'Español' : 'English'}
