@@ -1,46 +1,51 @@
 import './navbar.css'
-
-import { Nav, Container, Navbar } from 'react-bootstrap'
-import { Squash as Hamburger } from 'hamburger-react'
-
-import { Link } from 'react-router-dom'
+import { Nav,  Navbar } from 'react-bootstrap'
 import logo from '../../resources/images/OliDeVgrey.png'
+import React, { useState, useContext } from 'react'
+import translations from '../Language/translations'
+import espana from '../../resources/images/icons8-spain-48.png'
+import inglaterra from '../../resources/images/icons8-united-kingdom-48.png'
+import { LanguageContext } from '../../contexts/LanguageContext.js';
 
-import React, { useState } from 'react'
-
-import es from '../../components/Language/es';
-import en from '../../components/Language/en';
-import espana from '../../resources/images/icons8-spain-48.png';
-import inglaterra from '../../resources/images/icons8-united-kingdom-48.png';
 
 
 
 function Navbarr() {
 
-  const [idioma, setIdioma] = useState('es')
+
+  const [lang, setIdioma] = useState('es')
 
   const cambiarIdioma = () => {
-    setIdioma(idioma === 'es' ? 'en' : 'es')
+    setIdioma(lang === 'es' ? 'en' : 'es')
   }
+
+
+
+  const { language, translations, changeLanguage } = useContext(LanguageContext);
+
+  const handleLanguageChange = (lang) => {
+    changeLanguage(lang);
+  };
 
   return (
 
     <Navbar bg="transparent" expand="lg" className="navbar-transparent navbar-light" >
       <Navbar.Brand href="#"><img src={logo} className='imgLogo' alt='imgLogo' /></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav Squash" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav " className='my-navbar-toggler' />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#" className="text-white">Home</Nav.Link>
-          <Nav.Link href="#" className="text-white">Acerca de</Nav.Link>
-          <Nav.Link href="#contact" className="text-white">Contacto</Nav.Link>
+        <Nav className="mr-auto navbarSub">
+          <Nav.Link href="#" className="text-white">{translations[language].Proyectos}</Nav.Link>
+          <Nav.Link href="#" className="text-white">{translations[language].AcercaDeMí}</Nav.Link>
+          <Nav.Link href="#contact" className="text-white">{translations[language].Contacto}</Nav.Link>
         </Nav>
-        <button onClick={cambiarIdioma}>
+      </Navbar.Collapse>
+      <button onClick={() => handleLanguageChange(lang === 'es' ? 'en' : 'es')} className='botonIdioma'>  {/* Necesito revisar el condicional para que cambie cada vez que pinche.*/}
           <img className='iconLenguage'
-            src={idioma === 'es' ? espana : inglaterra}
-            alt={idioma === 'es' ? 'Español' : 'English'}
+            src={lang === 'es' ? espana : inglaterra}
+            alt={lang === 'es' ? 'Español' : 'English'}
           />
         </button>
-      </Navbar.Collapse>
+      
     </Navbar>
 
   )
