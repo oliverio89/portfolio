@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import './contact.css'
 
 function Contact() {
@@ -29,7 +29,7 @@ function Contact() {
 
 
 
-    return    <div className="contact-links">
+    return    <div className="contact-links border d-flex align-items-center justify-content-center">
 
 <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -97,9 +97,9 @@ function Contact() {
       <a href="https://github.com/oliverio89" target="_blank" rel="noopener noreferrer">
         <FaGithub className="contact-icon" />
       </a>
-      {/* <a href="mailto:oliverio89@gmail.com" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:oliverio89@gmail.com" target="_blank" rel="noopener noreferrer">
         <FaEnvelope className="contact-icon" />
-      </a> */}
+      </a>
       
   </div>
 

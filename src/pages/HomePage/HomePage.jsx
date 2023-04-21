@@ -17,7 +17,7 @@ const HomePage = () => {
         <LanguageProvider>
             <div> <Navbar /> </div>
             <div> <About /> </div>
-            <div> <Contact id="contacto" /> </div>
+            {/* <div> <Contact id="contacto" /> </div> */}
             <div> <Projects /> </div>
             {/* <div> <Skills /> </div> */}
             </LanguageProvider>

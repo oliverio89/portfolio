@@ -22,12 +22,12 @@ function Navbarr() {
 
   return (
 
-    <Navbar bg="transparent" expand="lg" className="navbar-transparent navbar-light" >
+    <Navbar bg="transparent" expand="lg" className="navbar-transparent navbar-light " >
       <Navbar.Brand href="#"><img src={logo} className='imgLogo' alt='imgLogo' /></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav " className='my-navbar-toggler' />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav " className='my-navbar-toggler ' />
+      <Navbar.Collapse id="basic-navbar-nav" className='border d-flex align-items-center justify-content-center'>
         <Nav className="mr-auto navbarSub">
-          <Nav.Link href="#" className="text-white">{translations[language].Proyectos}</Nav.Link>
+          <Nav.Link href="#projects" className="text-white">{translations[language].Proyectos}</Nav.Link>
           <Nav.Link href="#" className="text-white">{translations[language].AcercaDeMí}</Nav.Link>
           <Nav.Link href="#contact" className="text-white">{translations[language].Contacto}</Nav.Link>
         </Nav>
