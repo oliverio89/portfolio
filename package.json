@@ -6,6 +6,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@heroicons/react": "^1.0.6",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.16",
@@ -20,6 +21,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
     "react-hook-form": "^7.43.9",
     "react-icons": "^4.8.0",
     "react-parallax-tilt": "^1.7.127",
@@ -52,8 +54,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.1"
   }
 }
