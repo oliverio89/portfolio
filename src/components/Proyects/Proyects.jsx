@@ -16,17 +16,17 @@ function Projects() {
   const { language, translations } = useContext(LanguageContext);
 
   return (
-    <section id="projects" className=" container ">
+    <section id="projects" className=" container mb-5 ">
       <div>
         <div className="">
-          <h1 className="">{translations[language].Aplicaciones}</h1>
+          <h1 className="mb-5">{translations[language].Aplicaciones}</h1>
         </div>
         <Row my={2} className=" ">
           {projects.map((project) => (
-            <Col className="col-6 p-5">
+            <Col className="col-6 p-4">
               <MDBCard
                 background="dark opacit"
-                className="text-white w-100 p-6"
+                className="text-white w-150 p-6"
               >
                 <Tilt>
                   <MDBCardImage overlay src={project.image} alt="..." />

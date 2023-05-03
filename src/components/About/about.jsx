@@ -11,8 +11,8 @@ function About() {
   const { language, translations } = useContext(LanguageContext);
 
   return (
-    <section id="about d-flex">
-      <Container className="d-flex aboutEnd align-items-center p-5 ">
+    <section id="about container d-flex mb-5">
+      <Container className="d-flex aboutEnd align-items-center p-5 mb-5 ">
         <Row className=" d-flex justify-content-center ">
           <Col className="colAbout justify-content-center">
             <div>
@@ -31,7 +31,7 @@ function About() {
                   rel="noopener noreferrer"
                   className="p-2"
                 >
-                  <FaLinkedinIn className="contact-icon p-2" />
+                  <FaLinkedinIn size={50} />
                 </a>
                 <a
                   href="https://github.com/oliverio89"
@@ -39,12 +39,12 @@ function About() {
                   rel="noopener noreferrer"
                   className="p-2"
                 >
-                  <DiGithubBadge className="contact-icon p-2" />
+                  <DiGithubBadge size={50} />
                 </a>
               </div>
             </div>
           </Col>
-          <Col className="colImg justify-content-center ">
+          <Col className="justify-content-center ">
             <Tilt>
               <img src={myPhoto} className="imgMyPhoto" alt="myPhoto" />
             </Tilt>

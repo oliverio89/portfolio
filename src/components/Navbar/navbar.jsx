@@ -35,13 +35,13 @@ function Navbarr() {
         className="d-flex align-items-center justify-content-center"
       >
         <Nav className="mr-auto navbarSub">
-          <Nav.Link href="#projects" className="text-white">
+          <Nav.Link href="#projects" className="text-white p-5">
             {translations[language].Proyectos}
           </Nav.Link>
-          <Nav.Link href="#" className="text-white">
+          <Nav.Link href="#" className="text-white p-5">
             {translations[language].AcercaDeMí}
           </Nav.Link>
-          <Nav.Link href="#contact" className="text-white">
+          <Nav.Link href="#contact" className="text-white p-5">
             {translations[language].Stack}
           </Nav.Link>
         </Nav>

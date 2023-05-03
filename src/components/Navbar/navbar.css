@@ -1,34 +1,29 @@
 .navbar {
-    height: 7rem;
+  height: 7rem;
+  font-size: larger;
 }
 
-
-.imgLogo{
-    width: 7rem;
-    padding-left: 35px;
+.imgLogo {
+  width: 7rem;
+  padding-left: 35px;
 }
 
-
-.iconLenguage{
-    width: 30px;
-   
+.iconLenguage {
+  width: 30px;
 }
 
 .my-navbar-toggler {
-    margin-right: 30px;
-  }
+  margin-right: 30px;
+}
 
-  #basic-navbar-nav{
-    background-color: rgba(37, 52, 57, 255);
-     }
+#basic-navbar-nav {
+  background-color: rgba(37, 52, 57, 255);
+}
 
-  .navbar-nav{
-align-items: center;
-  }
+.navbar-nav {
+  align-items: center;
+}
 
-  .botonIdioma{
-    margin-right: 50px;
-  
-  }
-
-
+.botonIdioma {
+  margin-right: 50px;
+}
