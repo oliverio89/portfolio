@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { projects } from "./data";
 import Tilt from "react-parallax-tilt";
 import { LanguageContext } from "../../contexts/LanguageContext.js";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import {
   MDBCard,
   MDBCardTitle,
@@ -16,16 +16,19 @@ function Projects() {
   const { language, translations } = useContext(LanguageContext);
 
   return (
-    <section id="projects" className="p-5 container">
+    <section id="projects" className="p-6 container">
       <div>
         <div className="">
           <h1 className="">{translations[language].Aplicaciones}</h1>
         </div>
         <Row my={2} className="p-4">
           {projects.map((project) => (
-            <Col className="">
-              <Tilt>
-                <MDBCard background="dark opacit" className="text-white w-50">
+            <Col className="col-6 p-6">
+              <MDBCard
+                background="dark opacit"
+                className="text-white w-100 p-6"
+              >
+                <Tilt>
                   <MDBCardImage overlay src={project.image} alt="..." />
                   <MDBCardOverlay
                     className="p-5 mask"
@@ -35,8 +38,8 @@ function Projects() {
                     <MDBCardText>{project.subtitle}</MDBCardText>
                     <MDBCardText>{project.description}</MDBCardText>
                   </MDBCardOverlay>
-                </MDBCard>
-              </Tilt>
+                </Tilt>
+              </MDBCard>
             </Col>
           ))}
         </Row>

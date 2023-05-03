@@ -8,7 +8,7 @@ import {
   DiBootstrap,
 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./stack.css";
 
 const Stack = () => {
