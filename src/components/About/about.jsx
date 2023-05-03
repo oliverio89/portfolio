@@ -3,8 +3,9 @@ import "./about.css";
 import myPhoto from "../../resources/images/IMG_9956.JPG";
 import Tilt from "react-parallax-tilt";
 import { LanguageContext } from "../../contexts/LanguageContext.js";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
+import { DiGithubBadge, AiFillLinkedin } from "react-icons/di";
 
 function About() {
   const { language, translations } = useContext(LanguageContext);
@@ -30,7 +31,7 @@ function About() {
                   rel="noopener noreferrer"
                   className="p-2"
                 >
-                  <FaLinkedin className="contact-icon p-2" />
+                  <FaLinkedinIn className="contact-icon p-2" />
                 </a>
                 <a
                   href="https://github.com/oliverio89"
@@ -38,7 +39,7 @@ function About() {
                   rel="noopener noreferrer"
                   className="p-2"
                 >
-                  <FaGithub className="contact-icon p-2" />
+                  <DiGithubBadge className="contact-icon p-2" />
                 </a>
               </div>
             </div>

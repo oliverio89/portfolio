@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import About from "../../components/About/about";
 import Projects from "../../components/Proyects/Proyects";
+import Footer from "../../components/Footer/footer.jsx";
 
 import Navbar from "../../components/Navbar/navbar";
 import { LanguageProvider } from "../../contexts/LanguageContext.js";
@@ -19,7 +20,6 @@ const HomePage = () => {
           {" "}
           <About />{" "}
         </div>
-        {/* <div> <Contact id="contacto" /> </div> */}
         <div>
           {" "}
           <KnowledgeStack />{" "}
@@ -28,7 +28,10 @@ const HomePage = () => {
           {" "}
           <Projects />{" "}
         </div>{" "}
-        {/* <div> <Skills /> </div> */}
+        <div>
+          {" "}
+          <Footer />{" "}
+        </div>{" "}
       </LanguageProvider>
     </>
   );
