@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://oliverio89.github.io/porfolio/static/css/main.d8a6fb2c.css",
-    "main.js": "https://oliverio89.github.io/porfolio/static/js/main.6367046a.js",
+    "main.js": "https://oliverio89.github.io/porfolio/static/js/main.3cb667cf.js",
     "static/js/787.1ed0c42c.chunk.js": "https://oliverio89.github.io/porfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG_9956.JPG": "https://oliverio89.github.io/porfolio/static/media/IMG_9956.f6b76481adf2babfd3f9.JPG",
     "static/media/OliDeVgrey.png": "https://oliverio89.github.io/porfolio/static/media/OliDeVgrey.7a7c41a47e6b66cc5528.png",
     "index.html": "https://oliverio89.github.io/porfolio/index.html",
     "main.d8a6fb2c.css.map": "https://oliverio89.github.io/porfolio/static/css/main.d8a6fb2c.css.map",
-    "main.6367046a.js.map": "https://oliverio89.github.io/porfolio/static/js/main.6367046a.js.map",
+    "main.3cb667cf.js.map": "https://oliverio89.github.io/porfolio/static/js/main.3cb667cf.js.map",
     "787.1ed0c42c.chunk.js.map": "https://oliverio89.github.io/porfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8a6fb2c.css",
-    "static/js/main.6367046a.js"
+    "static/js/main.3cb667cf.js"
   ]
 }
