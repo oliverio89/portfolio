@@ -44,7 +44,7 @@ function About() {
               </div>
             </div>
           </Col>
-          <Col className="justify-content-center ">
+          <Col className="justify-content-center box">
             <Tilt>
               <img src={myPhoto} className="imgMyPhoto" alt="myPhoto" />
             </Tilt>
