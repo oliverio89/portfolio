@@ -14,7 +14,6 @@ const translations = {
     EducaciónCertificaciones: "Certificaciones",
     TestimoniosReferencias: "Referencias",
     Contacto: "Contacto",
-    Stack: "Stack",
     Aplicaciones: "Aplicaciones que he desarrollado",
     Stack: "Tecnologías aplicadas",
   },
@@ -35,7 +34,6 @@ const translations = {
     Contacto: "Contact",
     Stack: "Stack",
     Aplicaciones: "Programs that I have designed and developed",
-    Stack: "Stack",
   },
 };
 
