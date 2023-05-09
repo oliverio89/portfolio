@@ -11,7 +11,6 @@ import {
   MDBCardImage,
 } from "mdb-react-ui-kit";
 import "./proyects.css";
-import { Link } from "react-router-dom";
 
 function Projects() {
   const { language, translations } = useContext(LanguageContext);
