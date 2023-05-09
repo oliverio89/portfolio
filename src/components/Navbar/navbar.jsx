@@ -13,7 +13,7 @@ function Navbarr() {
   const [lang, setIdioma] = useState("es");
 
   const handleLanguageChange = () => {
-    setIdioma(lang === "es" ? "en" : "es");
+    setIdioma(lang === "en" ? "es" : "en");
     changeLanguage(lang);
   };
 
@@ -23,7 +23,7 @@ function Navbarr() {
       expand="lg"
       className="navbar-transparent navbar-light "
     >
-      <Navbar.Brand href="#">
+      <Navbar.Brand href="/">
         <img src={logo} className="imgLogo" alt="imgLogo" />
       </Navbar.Brand>
       <Navbar.Toggle
@@ -38,10 +38,10 @@ function Navbarr() {
           <Nav.Link href="#projects" className="text-white p-5">
             {translations[language].Proyectos}
           </Nav.Link>
-          <Nav.Link href="#" className="text-white p-5">
+          <Nav.Link href="#about" className="text-white p-5">
             {translations[language].AcercaDeMí}
           </Nav.Link>
-          <Nav.Link href="#contact" className="text-white p-5">
+          <Nav.Link href="#stack" className="text-white p-5">
             {translations[language].Stack}
           </Nav.Link>
         </Nav>
@@ -52,8 +52,8 @@ function Navbarr() {
       >
         <img
           className="iconLenguage"
-          src={lang === "es" ? espana : inglaterra}
-          alt={lang === "es" ? "Español" : "English"}
+          src={lang === "es" ? inglaterra : espana}
+          alt={lang === "es" ? "English" : "Español"}
         />
       </button>
     </Navbar>

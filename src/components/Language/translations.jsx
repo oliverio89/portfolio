@@ -16,6 +16,7 @@ const translations = {
     Contacto: "Contacto",
     Stack: "Stack",
     Aplicaciones: "Aplicaciones que he desarrollado",
+    Stack: "Tecnologías aplicadas",
   },
   en: {
     titulo: "I´m Víctor",
@@ -34,6 +35,7 @@ const translations = {
     Contacto: "Contact",
     Stack: "Stack",
     Aplicaciones: "Programs that I have designed and developed",
+    Stack: "Stack",
   },
 };
 
