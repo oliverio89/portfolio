@@ -1,6 +1,6 @@
 {
-  "homepage": "https://oliverio89.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://oliverio89.github.io",
+  "name": "OliDev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
